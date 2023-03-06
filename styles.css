@@ -1,12 +1,102 @@
 * {
-    box-sizing: border-box;
-  }
-h1{
-    font-family: monospace;
-    background-color: aqua;
-    text-align: center;
-    margin: 10px;
-    padding: 50px;
-    border-radius: 20px;
-    font-size: 50px;
+  box-sizing: border-box;
+}
+body {
+  background-color: white;
+  color: black;
+  font-family: monospace;
+  text-align: center;
+}
+
+main {
+  padding-top: 150px;
+}
+
+h1 {
+  background-color: rgba(122, 108, 108, 0.395);
+  margin: 10px;
+  padding: 30px;
+  font-size: 50px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  -webkit-box-shadow: 0px 14px 29px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 14px 29px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 14px 29px 0px rgba(0, 0, 0, 0.75);
+}
+.question-card {
+  border: solid;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 10%;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(222, 222, 220, 0.683);
+  -webkit-box-shadow: 0px 14px 29px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 14px 29px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 14px 29px 0px rgba(0, 0, 0, 0.75);
+  position: relative;
+}
+.question-no {
+  padding: 10px;
+}
+
+.question {
+  font-size: 20px;
+}
+
+.bookmark-card {
+  width: 20px;
+  position: absolute;
+  top: -2px;
+  right: 10px;
+}
+
+button {
+  margin: 20px;
+  padding: 10px;
+  background-color: orange;
+}
+.tags ul {
+  list-style: none;
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+}
+
+.tags li {
+  border: solid;
+  border-style: outset;
+  background-color: white;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: rgba(222, 222, 220, 0.683);
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  left: 100px;
+  right: 100px;
+  border: solid;
+  border-radius: 5px;
+  border-color: black;
+  list-style: none;
+}
+
+.bookmark {
+  width: 20px;
+}
+
+.profile {
+  width: 20px;
+}
+
+.home {
+  width: 20px;
 }
