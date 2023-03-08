@@ -1,0 +1,18 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: var(--primary-color);
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    left: 100px;
+    right: 100px;
+    border: solid;
+    border-radius: 5px;
+    border-color: black;
+    list-style: none;
+  }
+  
+  .nav__list {
+    width: 50px;}
