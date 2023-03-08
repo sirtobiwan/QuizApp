@@ -1,0 +1,59 @@
+ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+
+.profile__pic {
+    text-decoration: none;
+    background-color: white;
+    
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: inline-block;
+  ;
+}
+
+.profile__name {
+    background-color: white;
+    
+}
+
+.profile__about {
+    background-color: white;
+}
+
+.profile__questions-count{
+    background-color: white;
+    grid-column-start: 1;
+}
+
+
+.profile__bookmarks-count{
+    background-color: white;
+}
+
+.profile__settings{
+    background-color: white;
+}
+
+.profile__dark-mode{
+    background-color: white;
+    grid-column-start: 1;
+}
+
+.profile__button-dark-mode{
+    background-color: white;
+}
+
+.profile__platzhalter{
+    background-color: white;
+}
+
+
+
+
+
+
